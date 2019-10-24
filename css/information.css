@@ -1,0 +1,372 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+*{
+	box-sizing: border-box;
+		padding: 0;
+	margin: 0;
+}
+.z-infor-box{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+/*头部的css开始*/
+/* basic */
+.left {
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: 24px;
+}
+
+.fixed {
+margin-bottom: 20px;
+}
+
+
+
+nav {
+    height: 81px;
+    padding: 0 calc(50% - 700px);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.18);
+}
+
+/* logo */
+.nav-brand {
+    height: 55px;
+    width: 220px;
+    background: url("../images/logo.png") no-repeat;
+    background-size: cover;
+}
+
+/* left */
+
+.nav-left>li button {
+    width: 101px;
+    height: 57px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.nav-left>li button span {
+    width: 38px;
+    height: 19px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(0, 0, 0);
+    line-height: 14px;
+}
+
+.nav-left>li:first-child button {
+    border-radius: 10px;
+    background: rgba(59, 177, 73, 1);
+    border-radius: 10px;
+    color: white;
+}
+
+.nav-left>li:first-child button>span {
+    color: white;
+}
+
+
+/* form */
+
+.nav-form {
+    top: 20px;
+    left: 20px;
+}
+
+.nav-form>input {
+    width: 281px;
+    height: 34px;
+    border: 1px solid rgba(163,163,163);
+    display: block;
+    border-radius: 16px;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.nav-form>input:placeholder-shown {
+    color: rgba(112, 112, 112, 1);
+}
+
+.nav-form .search {
+    display: block;
+    background: url("../images/search.png") no-repeat;
+    height: 22px;
+    width: 23px;
+    position: absolute;
+    bottom: 8px;
+    right: 11px;
+    top: 5px;
+    cursor: pointer;
+}
+
+
+/* right */
+.nav-right>li a {
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+    padding-top: 8px;
+    padding-left: 30px;
+    margin-left: 85px;
+}
+
+.nav-right>li .writing {
+    background: url("../images/writing.png") no-repeat left center;
+    background-size: 25px 25px;
+    color: #43B451;
+}
+
+.nav-right>li .person {
+    background: url("../images/person.png") no-repeat left center;
+    background-size: 18px 21px;
+    padding-top: 6px;
+}
+/* 下拉菜单 */
+.dropdown:focus+.drop-menu {
+    display: block;
+}
+
+.drop-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 0;
+    top: 40px;
+    right: 0;
+    display: none;
+}
+
+.drop-menu li {
+    display: block;
+}
+
+.drop-menu li a {
+    color: #707070;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 0;
+    padding: 5px 10px
+}
+
+.drop-menu li a:hover {
+    background: #3BB149;
+    color: white;
+}
+
+/*头部的css结束*/
+
+
+
+
+/*主体内容开始*/
+.infor-content{
+	width: 1231px;
+	height:660px;
+	margin:0 auto;
+}
+
+
+/*左边*/
+.infor-left{
+	width: 200px;
+	height: 303px;
+	float: left;
+}
+/*左边图片*/
+.left-img{
+	width: 100%;
+	height: 137px;
+	background-image: url(../images/new-infor.png);
+	background-size: cover;
+}
+.infor-left ul{
+	padding: 0;
+}
+.infor-left ul li{
+width: 100%;
+height: 44px;
+border-radius:10px;
+position: relative;
+line-height: 44px;
+text-align: center;
+font-size:18px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(134,134,134,1);
+cursor: pointer;
+}
+.infor-left ul li img{
+	position: absolute;
+	left: 28px;
+	top: 14px;
+	width: 20px;
+	height: 18px;
+}
+/*li选中的样式*/
+.li-focus{
+	background:rgba(59,177,73,1);
+	color:white !important;
+}
+
+
+
+/*右边内容*/
+.infor-right{
+	height: 100%;
+	width: 993px;
+	float: right;
+}
+.infor-right .right-top{
+	height: 74px;
+	width: 100%;
+	border-bottom:1px solid rgba(129,129,129,1);
+	font-size:18px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(0,0,0,1);
+line-height: 102px;
+}
+
+/*右边底部*/
+.infor-right .right-bottom{
+	width: 100%;
+	height: 586px;
+}
+.bottom-top{
+	height: 70px;
+	width: 100%;
+		padding-top: 25px;
+}
+.all-read,.no-read{
+	cursor: pointer;
+	margin-right: 30px;
+}
+.read-change{
+border-bottom: 1px solid rgba(59,177,73,1);
+padding-bottom: 5px;
+}
+.gain-one,.gain-two{
+	color: #3BB149;
+}
+
+
+/*分块*/
+.bottom-bottom{
+	width: 100%;
+	height: 516px;
+	position: relative;
+}
+.bottom-bottom ul{
+	height: 100%;
+	
+}
+.bottom-bottom ul li{
+	height:44px;
+	width: 100%;
+	line-height: 44px;
+	border-radius:5px;
+	padding-left:15px;
+	padding-right: 15px;
+	font-size:16px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(0,0,0,1);
+}
+.bottom-bottom ul li .like-page{
+	float: right;
+}
+.bottom-bottom ul li .like-page button{
+	width:64px;
+height:32px;
+background:rgba(59,177,73,1);
+border-radius:5px;
+color:rgba(255,255,255,1);
+border: none;
+cursor: pointer;
+margin-left: 20px;
+}
+/*这里是做样子代码*/
+.bottom-bottom ul li:nth-of-type(odd){
+	background:rgba(230,230,230,1);
+}
+
+/*页码栏的css*/
+
+			.page-box{
+				height: 27px;
+				width: 100%;
+				margin-top: 50px;
+				display: flex;
+				justify-content: flex-end;
+				padding-right: 41px;
+				position: absolute;
+				right: -51px;
+				bottom:-38px;
+			}
+			
+			.dian {
+				width: 31px;
+			}
+			
+			.page-box div {
+				margin-right: 10px;
+				background: rgba(231, 231, 231, 1);
+				border-radius: 5px;
+				height: 27px;
+				line-height: 27px;
+				text-align: center;
+				font-size: 14px;
+				font-family: Microsoft YaHei;
+				font-weight: 400;
+				color: rgba(0, 0, 0, 1);
+				cursor: pointer;
+			}
+			
+			.focus {
+				color: white !important;
+				background: rgba(101, 186, 206, 1)!important;
+			}
+			
+			.jump {
+				width: 108px;
+				height: 27px;
+				background: rgba(231, 231, 231, 1);
+				border-radius: 5px;
+				line-height: 27px;
+			}
+			
+			.jump input {
+				width: 27px;
+				height: 18px;
+				background: rgba(255, 255, 255, 1);
+				border: 1px solid rgba(0, 0, 0, 0.3);
+				margin-right: 5px;
+			}
+			
+			.page-box .last-page,
+			.next-page {
+				width: 63px;
+				float: right;
+			}
+			
+			.balck-user-page .page {
+				width: 31px;
+			}
+			
+/*页面选中的css*/{
+	background:rgba(59,177,73,1);
+	color:rgba(255,255,255,1);
+}

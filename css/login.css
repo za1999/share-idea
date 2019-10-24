@@ -1,0 +1,146 @@
+*{
+	font-family:Microsoft YaHei;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body,html{
+	height: 100%;
+	width: 100%;
+	
+}
+body{
+	background-image: url(../images/login-bc.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 214px;
+	background-attachment: fixed;
+}
+.z-box{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+
+/*登陆框的css代码*/
+.z-login-div{
+	width:860px;
+height:510px;
+background:rgba(255,255,255,1);
+box-shadow:0px 1px 16px 2px rgba(0, 0, 0, 0.38);
+border-radius:10px;
+margin: 0 auto;
+position: relative;
+}
+.login-left{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.login-left img{
+	width: 352px;
+	height: 503px;
+}
+.login-right{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.login-right-top{
+	height: 150px;
+	width: 100%;
+	padding-top: 32px;
+}
+.login-right-top span{
+font-size:24px;
+color:rgba(90,90,90,1);
+line-height:21px;
+margin-left: 100px;
+margin-right: 80px;
+}
+.login-right-top img{
+	width: 220px;
+	height: 55px;
+}
+
+.login-right-bottom{
+	height: 360px;
+	width: 100%;
+}
+.bottom-content{
+	width: 340px;
+	height: 180px;
+	margin-left: 100px;
+	margin-top: 40px;
+	position: relative;
+}
+.bottom-content img{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+}
+.bottom-content .user-img{
+	top: 8px;
+	left: 0px;
+}
+.bottom-content .password-img{
+	top: 79px;
+	left: 0px;
+}
+.bottom-content .account,.password{
+	width: 340px;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid rgba(151,151,151,1);
+	font-size:14px;
+    color:rgba(163,163,163,1);
+    margin-bottom: 30px;
+    padding-left: 45px;
+    outline: none;
+}
+.choice-left{
+	float: left;
+}
+.choice-right{
+	float: right;
+}
+
+
+/*登录按钮*/
+.login-btn{
+width:305px;
+height:40px;
+background:rgba(59,177,73,1);
+line-height: 40px;
+font-size:18px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(255,255,255,1);
+text-align: center;
+margin-left: 90px;
+letter-spacing: 10px;
+margin-top: 30px;
+cursor: pointer;
+border-radius: 5px;
+}
+.login-btn:hover{
+	opacity: 0.8;
+	color: yellowgreen;
+}
+
+
+/*最后的关于*/
+.about{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+	height: 14px;
+	bottom: -124px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+}

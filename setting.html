@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/setting.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-brand left">
+        </div>
+
+        <ul class="nav-left left">
+            <li><button><span>首页</span></button></li>
+            <li><button><span>排行榜</span></button></li>
+            <li><button><span>消息</span></button></li>
+        </ul>
+
+        <div class="nav-form left">
+            <input type="text" placeholder="搜索文章">
+            <span class="search"></span>
+        </div>
+
+        <ul class="nav-right right">
+            <li><a class="writing" href="#">写文章</a></li>
+            <li>
+                <a class="person dropdown" href="#">何定军</a>
+                <!-- 下拉菜单 -->
+                <ul class="drop-menu">
+                    <li><a href="#">用户中心</a></li>
+                    <li><a href="#">注销</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="left-c">
+            <div class="author-img">
+                <img src="images/author-img.png" alt="用户头像">
+            </div>
+            <ul class="func">
+                <li><a class="grzl" href="#">个人资料</a>
+                <li>
+                <li><a class="article" href="#">文章管理</a></li>
+                <li><a class="cgmg" href="#">更改密码</a></li>
+            </ul>
+        </section>
+        <section class="right-c">
+            <div class="page-one none">
+                <p class="title">用户中心</p>
+                <dl>
+                    <dt>账号：
+                        <td>17310320119</td>
+                    </dt>
+                    <dt>昵称：
+                        <td>益康</td>
+                        <td><a class="chane-name-btn" href="#">修改昵称</a></td>
+                    </dt>
+                    <dt>文章数：
+                        <td>25</td>
+                    </dt>
+                    <dt>积分值：
+                        <td>12345</td>
+                    </dt>
+                    <dt>用户类型：
+                        <td>普通用户/管理员</td>
+                    </dt>
+                </dl>
+
+                <div class="chage-name none">
+                    <p>请输入新的昵称</p>
+                    <input type="text">
+                    <div class="btn-row">
+                        <button type="button">确认</button>
+                        <button type="button">取消</button>
+                    </div>
+                </div>
+            </div>
+            <div class="page-tow block">
+                <p class="title-head">文章管理</p>
+                <ul class="manage">
+                    <li>
+                        <a href="#">全部(<span>85</span>)</a>
+                    </li>
+                    <li>
+                        <a href="#">审核中(<span>15</span>)</a>
+                    </li>
+                    <li>
+                        <a href="#">未通过(<span>5</span>)</a>
+                    </li>
+                    <li>
+                        <a href="#">草稿箱(<span>1</span>)</a>
+                    </li>
+                </ul>
+                <div class="list-content">
+                    <ul class="article-list">
+                        <li>《演员的自我修养》</li>
+                        <li class="item-tow">状态：<span>审核中</span></li>
+                        <li class="item-tree">2019-10-16</li>
+                        <li class="item-four">点赞数：<span>123</span></li>
+                        <li class="item-five">浏览量：<span>123</span></li>
+                        <li><a href="#">修改</a></li>
+                    </ul>
+                    <ul class="article-list">
+                        <li>《演员的自我修养》</li>
+                        <li class="item-tow">状态：<span>审核中</span></li>
+                        <li class="item-tree">2019-10-16</li>
+                        <li class="item-four">点赞数：<span>123</span></li>
+                        <li class="item-five">浏览量：<span>123</span></li>
+                        <li><a href="#">修改</a></li>
+                    </ul>
+                    <ul class="article-list">
+                        <li>《演员的自我修养》</li>
+                        <li class="item-tow">状态：<span>审核中</span></li>
+                        <li class="item-tree">2019-10-16</li>
+                        <li class="item-four">点赞数：<span>123</span></li>
+                        <li class="item-five">浏览量：<span>123</span></li>
+                        <li><a href="#">修改</a></li>
+                    </ul>
+                    <ul class="article-list">
+                        <li>《演员的自我修养》</li>
+                        <li class="item-tow">状态：<span>审核中</span></li>
+                        <li class="item-tree">2019-10-16</li>
+                        <li class="item-four">点赞数：<span>123</span></li>
+                        <li class="item-five">浏览量：<span>123</span></li>
+                        <li><a href="#">修改</a></li>
+                    </ul>
+                </div>
+                <div class="fanye">
+                    <ul class="list-page">
+                        <li><a class="pre" href="#">上一页</a></li>
+                        <li><a class="item-page" href="#">1</a></li>
+                        <li><a class="item-page" href="#">2</a></li>
+                        <li><a class="item-page" href="#">3</a></li>
+                        <li><a class="next" href="#">下一页</a></li>
+                        <li><a class="end" href="#">尾页</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="page-tree none">
+                <div class="chage-secret">
+                    <form>
+                        <label for="orig-m">
+                            原密码：<input class="orig-m" id="orig-m" type="password">
+                        </label>
+                        <label for="new-m">
+                            新密码：<input class="new-m" id="new-m" type="password">
+                        </label>
+                        <label for="sure-m">
+                            确认密码：<input class="sure-m" id="sure-m" type="password">
+                        </label>
+                        <div class="btn-row">
+                            <button type="button">确认</button>
+                            <button type="button">取消</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 成都东软学院 All Rights Reserved | 蜀ICP备12011972号</p>
+    </footer>
+</body>
+
+</html>

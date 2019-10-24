@@ -1,0 +1,432 @@
+/* basic */
+.left {
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: 24px;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+.drop-menu,
+.left-c .func,
+.page-tow .manage,
+.page-tow .article-list{
+    padding: 0;
+}
+
+
+nav {
+    height: 81px;
+    padding: 0 calc(50% - 700px);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.18);
+}
+
+/* logo */
+.nav-brand {
+    height: 55px;
+    width: 220px;
+    background: url("../images/logo.png") no-repeat;
+    background-size: cover;
+}
+
+/* left-c */
+
+.nav-left>li button {
+    width: 101px;
+    height: 57px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.nav-left>li button span {
+    width: 38px;
+    height: 19px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(0, 0, 0);
+    line-height: 14px;
+}
+
+.nav-left>li:first-child button {
+    border-radius: 10px;
+    background: rgba(59, 177, 73, 1);
+    border-radius: 10px;
+    color: white;
+}
+
+.nav-left>li:first-child button>span {
+    color: white;
+}
+
+
+/* form */
+
+.nav-form {
+    top: 20px;
+    left: 20px;
+}
+
+.nav-form>input {
+    width: 281px;
+    height: 34px;
+    border: 1px solid rgb(163, 163, 163);
+    display: block;
+    border-radius: 16px;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.nav-form>input:placeholder-shown {
+    color: rgba(112, 112, 112, 1);
+}
+
+.nav-form .search {
+    display: block;
+    background: url("../images/search.png") no-repeat;
+    height: 22px;
+    width: 23px;
+    position: absolute;
+    bottom: 8px;
+    right: 11px;
+    cursor: pointer;
+}
+
+
+/* right */
+.nav-right>li a {
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+    padding-top: 8px;
+    padding-left: 30px;
+    margin-left: 85px;
+}
+
+.nav-right>li .writing {
+    background: url("../images/writing.png") no-repeat left center;
+    background-size: 25px 25px;
+    color: #43B451;
+}
+
+.nav-right>li .person {
+    background: url("../images/person.png") no-repeat left center;
+    background-size: 18px 21px;
+    padding-top: 6px;
+}
+
+
+
+/* 下拉菜单 */
+.dropdown:focus+.drop-menu {
+    display: block;
+}
+
+.drop-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid rgb(201, 201, 201);
+    top: 40px;
+    right: 0;
+    display: none;
+}
+
+.drop-menu li {
+    display: block;
+}
+
+.drop-menu li a {
+    color: #707070;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 0;
+    padding: 5px 10px
+}
+
+.drop-menu li a:hover {
+    background: #3BB149;
+    color: white;
+}
+
+
+/* 中间 */
+
+main {
+    height: 650px;
+}
+
+.left-c {
+    width: 180px;
+    margin-top: 50px;
+    float: left;
+}
+
+.left-c .author-img {
+    width: 96px;
+    height: 98px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.left-c .func li {
+    display: block;
+}
+
+.left-c .func li a {
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #868686;
+    text-align: center;
+}
+
+.left-c .func li a:hover {
+    color: white;
+    background-color: #3BB149;
+}
+
+/* 加图标 */
+.left-c .func li .grzl,
+.left-c .func li .article,
+.left-c .func li .cgmg,
+.left-c .func li .grzl:hover,
+.left-c .func li .article:hover,
+.left-c .func li .cgmg:hover{
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.left-c li .grzl {
+    background-image: url("../images/grzl.png");
+}
+
+.left-c li .article {
+    background: url("../images/article.png");
+}
+
+.left-c li .cgmg {
+    background: url("../images/mima.png");
+}
+
+.left-c li .grzl:hover {
+    background: url("../images/grzl-white.png");
+}
+
+.left-c li .article:hover {
+    background: url("../images/article-white.png");
+}
+
+.left-c li .cgmg:hover {
+    background: url("../images/mima-white.png");
+}
+
+/* 右边页面 */
+.right-c {
+    width: 1000px;
+    height: 650px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+.right-c .page-one dl dt {
+    margin-bottom: 30px;
+}
+
+.right-c .page-one dl a {
+    display: inline;
+    color: #3BB149;
+    margin-left: 50px;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+/* 弹框 */
+.page-one .chage-name {
+    background: white;
+    position: absolute;
+    z-index: 200;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    height: 201px;
+    width: 300px;
+    box-shadow: 0 0 5px -2px #000000;
+}
+
+.page-one .chage-name p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-one .chage-name input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 1px solid #B4B4B4;
+}
+
+.page-one .chage-name .btn-row {
+    margin-left: 55px;
+}
+
+.page-one .chage-name .btn-row button {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 7px 25px;
+    border: 1px solid #B4B4B4;
+    cursor: pointer;
+}
+
+.page-one .chage-name .btn-row button:hover,
+.page-tree .chage-secret .btn-row button:hover {
+    background: #3BB149;
+    color: white;
+    border-color: #3BB149;
+}
+
+/* 底部 */
+footer {
+    height: 53px;
+    background: #5A5A5A;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    line-height: 30px;
+}
+
+/* page-tow */
+
+.page-tow .manage {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.page-tow .manage li a {
+    color: black;
+    padding: 5px 0;
+    margin-right: 40px;
+}
+
+.page-tow .manage li a:hover {
+     box-shadow: 0 2px #3BB149;
+}
+
+.page-tow .manage li a span {
+    color: #3BB149;
+    padding: 0 5px;
+}
+
+/* 文章列表 */
+.page-tow .list-content {
+    margin-bottom: 30px;
+}
+
+.page-tow .article-list {
+    border-radius: 10px;
+    width: 1002px;
+}
+
+.page-tow .article-list:nth-child(2n+1) {
+    background: #E6E6E6;
+}
+
+.page-tow .article-list li {
+    padding: 5px 0;
+    color: #444444;
+}
+
+.page-tow .article-list .item-tow,
+.page-tow .article-list .item-tree,
+.page-tow .article-list .item-four,
+.page-tow .article-list .item-five{
+    margin-left: 60px;
+}
+
+.page-tow .article-list li:nth-child(1) {
+    margin-left: 20px;
+    color: black;
+}
+
+.page-tow .article-list li>a {
+    color: white;
+    background: #3BB149;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+/* 翻页 */
+.fanye {
+    position: relative;
+}
+
+.fanye .list-page {
+    position: absolute;
+    right: 30px;
+}
+
+.fanye .list-page li a {
+    color: black;
+    background: #E1E1E1;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.fanye .list-page li a:hover {
+    background: #3BB149;
+    color: white;
+}
+
+/* 更改密码页面 */
+.page-tree .chage-secret {
+    font-size: 16px;
+    height: 170px;
+    width: 310px;
+    margin-top: 100px;
+    margin-left: 300px;
+    box-shadow: 0 0 5px -2px black;
+    padding-top: 30px;
+}
+
+.page-tree .chage-secret .orig-m,
+.page-tree .chage-secret .new-m {
+    margin-left: 16px;
+}
+
+.page-tree .chage-secret label {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.page-tree .chage-secret .btn-row {
+    margin-left: 100px;
+}
+
+.page-tree .chage-secret .btn-row button {
+    background: white;
+    cursor: pointer;
+    border: 1px solid #B4B4B4;
+    margin-left: 10px;
+}

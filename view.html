@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/view.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-brand left">
+        </div>
+
+        <ul class="nav-left left">
+            <li><button><span>首页</span></button></li>
+            <li><button><span>排行榜</span></button></li>
+            <li><button><span>消息</span></button></li>
+        </ul>
+
+        <div class="nav-form left">
+            <input type="text" placeholder="搜索文章">
+            <span class="search"></span>
+        </div>
+
+        <ul class="nav-right right">
+            <li><a class="writing" href="#">写文章</a></li>
+            <li>
+                <a class="person dropdown" href="#">何定军</a>
+                <!-- 下拉菜单 -->
+                <ul class="drop-menu">
+                    <li><a href="#">用户中心</a></li>
+                    <li><a href="#">注销</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <p class="title-head">文章详情</p>
+        <article>
+            <header>
+                <h1>详细判断浏览器运行环境(可能是最全的判断，值得一看)</h1>
+                <div class="title-row">
+                    <span class="author">何定军</span>
+                    <span class="public">发表于 2019-10-23</span>
+                    <a class="front" href="#">前端</a>
+                    <a class="backg" href="#">javascript</a>
+                    <span class="read-num">13456次阅读</span>
+                </div>
+            </header>
+            <div class="content">
+
+            </div>
+            <span class="start">17</span>
+        </article>
+        <div class="reward">
+            <p>反馈信息</p>
+            <textarea autocomplete="on"></textarea>
+            <button class="reward-btn">反馈</button>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright © 成都东软学院 All Rights Reserved | 蜀ICP备12011972号</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,300 @@
+/* basic */
+.left {
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: 24px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+
+nav {
+    height: 81px;
+    padding: 0 calc(50% - 700px);
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.18);
+}
+
+/* logo */
+.nav-brand {
+    height: 55px;
+    width: 220px;
+    background: url("../images/logo.png") no-repeat;
+    background-size: cover;
+}
+
+/* left */
+
+.nav-left>li button {
+    width: 101px;
+    height: 57px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.nav-left>li button span {
+    width: 38px;
+    height: 19px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(0, 0, 0);
+    line-height: 14px;
+}
+
+.nav-left>li:first-child button {
+    border-radius: 10px;
+    background: rgba(59, 177, 73, 1);
+    border-radius: 10px;
+    color: white;
+}
+
+.nav-left>li:first-child button>span {
+    color: white;
+}
+
+
+/* form */
+
+.nav-form {
+    top: 20px;
+    left: 20px;
+}
+
+.nav-form>input {
+    width: 281px;
+    height: 34px;
+    border: 1px solid rgb(163, 163, 163);
+    display: block;
+    border-radius: 16px;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.nav-form>input:placeholder-shown {
+    color: rgba(112, 112, 112, 1);
+}
+
+.nav-form .search {
+    display: block;
+    background: url("../images/search.png") no-repeat;
+    height: 22px;
+    width: 23px;
+    position: absolute;
+    bottom: 8px;
+    right: 11px;
+    cursor: pointer;
+}
+
+
+/* right */
+.nav-right>li a {
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+    padding-top: 8px;
+    padding-left: 30px;
+    margin-left: 85px;
+}
+
+.nav-right>li .writing {
+    background: url("../images/writing.png") no-repeat left center;
+    background-size: 25px 25px;
+    color: #43B451;
+}
+
+.nav-right>li .person {
+    background: url("../images/person.png") no-repeat left center;
+    background-size: 18px 21px;
+    padding-top: 6px;
+}
+
+
+/* 下拉菜单 */
+.nav-right li:nth-of-type(2){
+display: inline-block;
+height: 40px;
+	}
+	
+.nav-right li:nth-of-type(2):hover ul{
+	display: block;
+}
+/*.dropdown:hover+.drop-menu {
+    display: block;
+}*/
+
+.drop-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 0;
+    top: 40px;
+    right: 0;
+    display: none;
+}
+
+.drop-menu li {
+    display: block;
+}
+
+.drop-menu li a {
+    color: #707070;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 0;
+    padding: 5px 10px
+}
+
+.drop-menu li a:hover {
+    background: #3BB149;
+    color: white;
+}
+
+
+
+/* main */
+main {
+    padding: 0 calc(50% - 600px);
+    margin-top: 50px;
+}
+
+/* aside */
+aside {
+    width: 180px;
+    float: left;
+    margin-right: 50px;
+}
+
+aside a {
+    border-radius: 10px;
+    font-size: 18px;
+    color: #868686;
+    text-align: center;
+    padding: 10px 0;
+    text-indent: 60px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.aside-pop .remen {
+    background: #3BB149 url("../images/tuijian.png") no-repeat 20px center;
+    background-size: 17px 20px;
+    color: white;
+}
+
+.aside-pop .newcontent {
+    background: url("../images/new.png") no-repeat 20px center;
+}
+
+.tech dt {
+    font-size: 18px;
+    color: #444444;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.tech dt>span {
+    margin-left: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 102px;
+    height: 1px;
+    border-bottom: 1px solid rgba(220, 220, 220, 1);
+}
+
+.tech dd {
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.tech dd:hover {
+    background: rgba(207, 255, 213, 1);
+    border-radius: 10px;
+}
+
+.tech dd .sheji {
+    background: url("../images/sheji.png") no-repeat 20px center;
+}
+
+.tech dd .qianduan {
+    background: url("../images/qianduan.png") no-repeat 20px center;
+}
+
+.tech dd .houduan {
+    background: url("../images/houduan.png") no-repeat 20px center;
+}
+
+.tech dd .anquan {
+    background: url("../images/safe.png") no-repeat 20px center;
+}
+
+.tech dd .qita {
+    background: url("../images/other.png") no-repeat 20px center;
+}
+
+article {
+    width: 900px;
+    float: left;
+    display: block;
+}
+
+article figcaption {
+    font-size: 20px;
+    padding: 7px 0;
+    color: rgba(68, 68, 68, 1);
+    border-bottom: 1px solid #CECECE;
+    text-indent: -7px;
+    margin-bottom: 22px;
+}
+
+article section {
+    height: 130px;
+}
+
+article section header {
+    font-size: 20px;
+}
+
+article section p {
+    color: #6C6C6C;
+    width: 742px;
+}
+
+article section footer {
+    font-size: 12px;
+    width: 742px;
+    display: flex;
+    color: #6C6C6C;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article section footer div {
+    padding: 10px 0;
+}
+
+article section footer .dianzan {
+    cursor: pointer;
+    background: url("../images/dianzan_gray.png") no-repeat left 3px;
+    background-size: 20px 20px;
+    padding-left: 30px;
+}
+
+article section footer .guankan {
+    cursor: pointer;
+    background: url("../images/remen.png") no-repeat left 6px;
+    background-size: 12px 16px;
+    padding-left: 25px;
+}
