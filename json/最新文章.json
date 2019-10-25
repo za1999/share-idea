@@ -1,0 +1,66 @@
+{
+    "code": 200,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 1,
+            "title": "Mr.",
+            "body": "Et a sit in fugiat aut occaecati. Provident cumque voluptate similique non. Qui et quidem beatae illo pariatur dolorum dolores. Omnis libero molestiae voluptate quas dolorum ratione.",
+            "user_id": 10,
+            "column_id": 2,
+            "view": 0,
+            "like": 0,
+            "hot": 100,
+            "status": 3,
+            "img_path": "",
+            "deleted_at": "2019-10-24 03:56:22",
+            "created_at": "2019-10-02 00:00:00",
+            "updated_at": "2019-10-24 03:56:22"
+        },
+        {
+            "id": 2,
+            "title": "Dr.",
+            "body": "Sed laborum et dolorum temporibus ullam sapiente. Animi voluptas eum nihil esse ipsam. In cum quidem recusandae quae occaecati in.",
+            "user_id": 7,
+            "column_id": 5,
+            "view": 0,
+            "like": 0,
+            "hot": 0,
+            "status": 1,
+            "img_path": "",
+            "deleted_at": null,
+            "created_at": "2019-10-02 00:00:00",
+            "updated_at": null
+        },
+        {
+            "id": 3,
+            "title": "Ms.",
+            "body": "Aut molestiae tenetur maxime iste laboriosam est. Eveniet dolores deleniti velit impedit qui.",
+            "user_id": 7,
+            "column_id": 4,
+            "view": 0,
+            "like": 0,
+            "hot": 0,
+            "status": 1,
+            "img_path": "",
+            "deleted_at": null,
+            "created_at": "2019-10-02 00:00:00",
+            "updated_at": null
+        },
+        {
+            "id": 4,
+            "title": "Prof.",
+            "body": "Id vitae qui sapiente et vero. Saepe vel aliquid sunt enim vel nihil. Ut officia consequatur tempore ex.",
+            "user_id": 1,
+            "column_id": 1,
+            "view": 0,
+            "like": 0,
+            "hot": 80,
+            "status": 1,
+            "img_path": "",
+            "deleted_at": null,
+            "created_at": "2019-10-02 00:00:00",
+            "updated_at": null
+        }
+    ]
+}
